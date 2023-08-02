@@ -1,0 +1,8 @@
+rabbitmq:
+  auth:
+    host: ${RABBITMQ_HOST}
+    user: ${RABBITMQ_USER}
+    password: ${RABBITMQ_PASSWORD}
+  exchange:
+    name: main.exchange
+  routing-key: main.queue
